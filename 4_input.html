@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        .input-box{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form action="" method="get" autocomplete="off">
+
+        <label for="eText">Enter text</label>
+        <input type="text" class="input-box" id="eText" placeholder="enter text" value="when reset is clicked it will be default value">
+
+        <br>
+        <!-- can reset  to default value in the previous input -->
+        <input type="reset" value="reset">
+
+        <br>
+        <!-- multiple allows selecting multiple values -->
+        <select name="Editors" multiple>
+            <option value="VS Code">vs code</option>
+            <option value="Sublime">Sublime</option>
+        </select>
+
+        <br>
+        <button type="submit">submit</button>
+
+    </form>
+
+</body>
+</html>
